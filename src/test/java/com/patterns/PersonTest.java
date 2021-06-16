@@ -9,6 +9,25 @@ import static org.junit.jupiter.api.Assertions.*;
 class PersonTest {
 
     @Test
+    void builderTest() {
+        Person person =
+                new PersonBuilderImp()
+                        .setFirstname("Alex")
+                        .setLastname("Sap")
+                        .setAge(23)
+                        .setHeight(180)
+                        .setAddress("Pushkinskaya,2")
+                        .build();
+
+        assertEquals("Alex", person.getFirstname());
+        assertEquals("Sap", person.getLastname());
+        assertEquals(23, person.getAge());
+        assertEquals(180, person.getHeight());
+        assertEquals("Pushkinskaya,2", person.getAddress());
+
+    }
+
+    @Test
     void builderAge() {
         Person person = new PersonBuilderImp().setAge(23).build();
         assertEquals(23, person.getAge());

@@ -1,3 +1,9 @@
+/*
+ * Implementation of PersonBuilder based on builder pattern.
+ * It allows creating an instance without filling in all the parameters
+ * And makes code more readable.
+ */
+
 package com.patterns;
 
 public class PersonBuilderImp implements PersonBuilder {
