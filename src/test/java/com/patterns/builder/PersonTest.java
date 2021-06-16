@@ -1,9 +1,9 @@
-package com.patterns;
+package com.patterns.builder;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootApplication
 class PersonTest {

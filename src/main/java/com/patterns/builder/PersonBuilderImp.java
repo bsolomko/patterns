@@ -4,7 +4,7 @@
  * And makes code more readable.
  */
 
-package com.patterns;
+package com.patterns.builder;
 
 public class PersonBuilderImp implements PersonBuilder {
 
