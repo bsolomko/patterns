@@ -1,4 +1,4 @@
-package com.patterns;
+package com.patterns.builder;
 
 public interface PersonBuilder {
     PersonBuilder setFirstname(String firstname);

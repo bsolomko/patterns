@@ -1,4 +1,4 @@
-package com.patterns;
+package com.patterns.builder;
 
 import lombok.Data;
 
